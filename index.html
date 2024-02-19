@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <a href="/"><img src="/images/logo.png" alt="logo" /></a>
+        <h4 class="logo-text">Bon Appétit</h4>
+      </div>
+      <div class="form">
+        <form>
+          <input type="text" placeholder="Pizza, Pasta" />
+          <button><span>Search</span></button>
+        </form>
+      </div>
+      <div class="bookmark">
+        <div class="bm-area">
+          <button class="bm-button">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </button>
+
+          <div class="dropdown">
+            <!-- <a href="#dasda">
+              <img
+                src="http://forkify-api.herokuapp.com/images/roastchicken2feab.jpg"
+                alt=""
+              />
+              <span>Recipe Name</span>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <section id="results">
+        <!-- <a href="#123">
+          <div class="image-wrapper">
+            <img
+              src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coconut-cake-e9f7a2c.jpg?quality=90&webp=true&resize=500,454"
+              alt=""
+            />
+          </div>
+          <div class="info">
+            <h5>Coconat Cake</h5>
+            <p>All Recipes</p>
+          </div>
+        </a> -->
+      </section>
+      <section id="recipe">
+        <!-- img area -->
+        <!-- <figure>
+          <img
+            src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coconut-cake-e9f7a2c.jpg?quality=90&webp=true&resize=500,454"
+          />
+          <h1>ChickenTikka Masala</h1>
+          <div class="like-area">
+            <i class="bi bi-heart"></i>
+          </div>
+        </figure> -->
+        <!-- recipe area -->
+
+        <!-- <div class="ing">
+          <ul>
+            <li>
+              <i class="bi bi-check-circle"></i>
+              <p>Salt and Pepper</p>
+            </li>
+            <li>
+              <i class="bi bi-check-circle"></i>
+              <p>Salt and Pepper</p>
+            </li>
+          </ul>
+          <button id="add-to-cart" class="CartBtn">
+            <span class="IconContainer"> 
+              <i class="cart bi bi-cart-fill"></i>
+            </span>
+            <p class="text">Add to Cart</p>
+          </button>
+        </div>  -->
+
+        <!-- how to cook -->
+
+        <!-- <div class="direction">
+          <h3>How to Cook</h3>
+          <p>Lorem ipsum dolor sit amet, <span>Consectetur Adipisicing</span> elit. Quisquam, fugiat reprehenderit tempora odio aliquid repudiandae soluta dolores neque, officia in ullam architecto!</p>
+          <a href="" target="_blank">Instruction</a>
+        </div> -->
+      </section>
+
+      <section id="cart">
+        <div>
+          <h2>Card</h2>
+          <button id="clear">Clear</button>
+        </div>
+
+        <ul id="basket"></ul>
+      </section>
+    </main>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
